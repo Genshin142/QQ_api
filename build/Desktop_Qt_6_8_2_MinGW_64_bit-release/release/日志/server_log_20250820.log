@@ -1,0 +1,82 @@
+[2025-08-20 16:39:04.097] [INFO] WidgetServer: ===== 服务器启动初始化 =====
+[2025-08-20 16:39:04.099] [INFO] WidgetServer: MySQL驱动检查通过
+[2025-08-20 16:39:06.178] [INFO] WidgetServer: 数据库连接池初始化成功，连接名：global_conn
+[2025-08-20 16:39:06.179] [INFO] WidgetServer: 日志工作线程启动成功
+[2025-08-20 16:39:06.179] [INFO] WidgetServer: 日志工作线程启动，开始处理日志队列
+[2025-08-20 16:39:06.188] [INFO] WidgetServer: 服务器启动成功，监听地址：0.0.0.0:8080
+[2025-08-20 16:39:06.188] [INFO] WidgetServer: 注册接口：POST /api/register
+[2025-08-20 16:39:06.190] [INFO] WidgetServer: 登录接口：POST /api/login
+[2025-08-20 16:39:06.191] [INFO] WidgetServer: 登出接口：POST /api/logout
+[2025-08-20 16:39:06.191] [INFO] WidgetServer: 好友功能接口：GET /api/get_friend_list
+[2025-08-20 16:39:06.191] [INFO] WidgetServer: 发送消息接口：POST /api/send_message
+[2025-08-20 16:39:08.665] [INFO] WidgetServer: 服务器已停止监听端口
+[2025-08-20 16:39:08.666] [INFO] WidgetServer: 数据库连接已关闭
+[2025-08-20 16:39:08.666] [INFO] WidgetServer: ===== 服务器程序已退出 =====
+[2025-08-20 16:41:23.853] [INFO] WidgetServer: ===== 服务器启动初始化 =====
+[2025-08-20 16:41:23.855] [INFO] WidgetServer: MySQL驱动检查通过
+[2025-08-20 16:41:25.928] [INFO] WidgetServer: 数据库连接池初始化成功，连接名：global_conn
+[2025-08-20 16:41:25.928] [INFO] WidgetServer: 日志工作线程启动成功
+[2025-08-20 16:41:25.930] [INFO] WidgetServer: 日志工作线程启动，开始处理日志队列
+[2025-08-20 16:41:25.932] [INFO] WidgetServer: 服务器启动成功，监听地址：0.0.0.0:8080
+[2025-08-20 16:41:25.933] [INFO] WidgetServer: 注册接口：POST /api/register
+[2025-08-20 16:41:25.934] [INFO] WidgetServer: 登录接口：POST /api/login
+[2025-08-20 16:41:25.934] [INFO] WidgetServer: 登出接口：POST /api/logout
+[2025-08-20 16:41:25.934] [INFO] WidgetServer: 好友功能接口：GET /api/get_friend_list
+[2025-08-20 16:41:25.935] [INFO] WidgetServer: 发送消息接口：POST /api/send_message
+[2025-08-20 16:41:25.935] [INFO] WidgetServer: 获取消息接口：GET /api/get_messages
+[2025-08-20 16:41:25.935] [INFO] WidgetServer: 头像上传接口：POST /api/upload_avatar
+[2025-08-20 16:41:25.935] [INFO] WidgetServer: 头像获取接口：GET /api/get_avatar
+[2025-08-20 16:41:31.167] [INFO] WidgetServer: 服务器已停止监听端口
+[2025-08-20 16:41:31.167] [INFO] WidgetServer: 数据库连接已关闭
+[2025-08-20 16:41:31.167] [INFO] WidgetServer: ===== 服务器程序已退出 =====
+[2025-08-20 19:47:54.869] [INFO] WidgetServer: ===== 服务器启动初始化 =====
+[2025-08-20 19:47:54.870] [INFO] WidgetServer: MySQL驱动检查通过
+[2025-08-20 19:47:56.972] [INFO] WidgetServer: 数据库连接池初始化成功，连接名：global_conn
+[2025-08-20 19:47:56.972] [INFO] WidgetServer: 日志工作线程启动成功
+[2025-08-20 19:47:56.973] [INFO] WidgetServer: 日志工作线程启动，开始处理日志队列
+[2025-08-20 19:47:56.976] [INFO] WidgetServer: 服务器启动成功，监听地址：0.0.0.0:8080
+[2025-08-20 19:47:56.976] [INFO] WidgetServer: 注册接口：POST /api/register
+[2025-08-20 19:47:56.977] [INFO] WidgetServer: 登录接口：POST /api/login
+[2025-08-20 19:47:56.977] [INFO] WidgetServer: 登出接口：POST /api/logout
+[2025-08-20 19:47:56.978] [INFO] WidgetServer: 好友功能接口：GET /api/get_friend_list
+[2025-08-20 19:47:56.978] [INFO] WidgetServer: 发送消息接口：POST /api/send_message
+[2025-08-20 19:47:56.978] [INFO] WidgetServer: 获取消息接口：GET /api/get_messages
+[2025-08-20 19:47:56.978] [INFO] WidgetServer: 头像上传接口：POST /api/upload_avatar
+[2025-08-20 19:47:56.978] [INFO] WidgetServer: 头像获取接口：GET /api/get_avatar
+[2025-08-20 19:52:29.284] [INFO] WidgetServer: 服务器已停止监听端口
+[2025-08-20 19:52:29.294] [INFO] WidgetServer: 数据库连接已关闭
+[2025-08-20 19:52:29.294] [INFO] WidgetServer: ===== 服务器程序已退出 =====
+[2025-08-20 20:47:04.496] [INFO] WidgetServer: ===== 服务器启动初始化 =====
+[2025-08-20 20:47:04.498] [INFO] WidgetServer: MySQL驱动检查通过
+[2025-08-20 20:47:06.573] [INFO] WidgetServer: 数据库连接池初始化成功，连接名：global_conn
+[2025-08-20 20:47:06.573] [INFO] WidgetServer: 日志工作线程启动成功
+[2025-08-20 20:47:06.576] [INFO] WidgetServer: 日志工作线程启动，开始处理日志队列
+[2025-08-20 20:47:06.577] [INFO] WidgetServer: 服务器启动成功，监听地址：0.0.0.0:8080
+[2025-08-20 20:47:06.577] [INFO] WidgetServer: 注册接口：POST /api/register
+[2025-08-20 20:47:06.578] [INFO] WidgetServer: 登录接口：POST /api/login
+[2025-08-20 20:47:06.579] [INFO] WidgetServer: 登出接口：POST /api/logout
+[2025-08-20 20:47:06.579] [INFO] WidgetServer: 好友功能接口：GET /api/get_friend_list
+[2025-08-20 20:47:06.579] [INFO] WidgetServer: 发送消息接口：POST /api/send_message
+[2025-08-20 20:47:06.579] [INFO] WidgetServer: 获取消息接口：GET /api/get_messages
+[2025-08-20 20:47:06.579] [INFO] WidgetServer: 头像上传接口：POST /api/upload_avatar
+[2025-08-20 20:47:06.579] [INFO] WidgetServer: 头像获取接口：GET /api/get_avatar
+[2025-08-20 20:51:09.302] [INFO] WidgetServer: 服务器已停止监听端口
+[2025-08-20 20:51:09.302] [INFO] WidgetServer: 数据库连接已关闭
+[2025-08-20 20:51:09.304] [INFO] WidgetServer: ===== 服务器程序已退出 =====
+[2025-08-20 20:56:38.570] [INFO] WidgetServer: ===== 服务器启动初始化 =====
+[2025-08-20 20:56:38.571] [INFO] WidgetServer: MySQL驱动检查通过
+[2025-08-20 20:56:40.618] [INFO] WidgetServer: 数据库连接池初始化成功，连接名：global_conn
+[2025-08-20 20:56:40.618] [INFO] WidgetServer: 日志工作线程启动成功
+[2025-08-20 20:56:40.619] [INFO] WidgetServer: 日志工作线程启动，开始处理日志队列
+[2025-08-20 20:56:40.622] [INFO] WidgetServer: 服务器启动成功，监听地址：0.0.0.0:8080
+[2025-08-20 20:56:40.622] [INFO] WidgetServer: 注册接口：POST /api/register
+[2025-08-20 20:56:40.624] [INFO] WidgetServer: 登录接口：POST /api/login
+[2025-08-20 20:56:40.624] [INFO] WidgetServer: 登出接口：POST /api/logout
+[2025-08-20 20:56:40.624] [INFO] WidgetServer: 好友功能接口：GET /api/get_friend_list
+[2025-08-20 20:56:40.624] [INFO] WidgetServer: 发送消息接口：POST /api/send_message
+[2025-08-20 20:56:40.624] [INFO] WidgetServer: 获取消息接口：GET /api/get_messages
+[2025-08-20 20:56:40.625] [INFO] WidgetServer: 头像上传接口：POST /api/upload_avatar
+[2025-08-20 20:56:40.625] [INFO] WidgetServer: 头像获取接口：GET /api/get_avatar
+[2025-08-20 20:56:42.360] [INFO] WidgetServer: 服务器已停止监听端口
+[2025-08-20 20:56:42.362] [INFO] WidgetServer: 数据库连接已关闭
+[2025-08-20 20:56:42.362] [INFO] WidgetServer: ===== 服务器程序已退出 =====
