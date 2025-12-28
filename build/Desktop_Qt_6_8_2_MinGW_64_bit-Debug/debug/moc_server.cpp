@@ -6,7 +6,7 @@
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include "../../../server.h"
+#include "../../../../../../TraeWorks/QQ_api/server.h"
 #include <QtCore/qmetatype.h>
 
 #include <QtCore/qtmochelpers.h>
@@ -40,7 +40,11 @@ static constexpr auto qt_meta_stringdata_ZN6WidgetE = QtMocHelpers::stringData(
     "Widget",
     "logToUI",
     "",
-    "logStr"
+    "logStr",
+    "onNewWebSocketConnection",
+    "onWebSocketDisconnected",
+    "onWebSocketTextMessageReceived",
+    "message"
 );
 #else  // !QT_MOC_HAS_STRINGDATA
 #error "qtmochelpers.h not found or too old."
@@ -52,7 +56,7 @@ Q_CONSTINIT static const uint qt_meta_data_ZN6WidgetE[] = {
       12,       // revision
        0,       // classname
        0,    0, // classinfo
-       1,   14, // methods
+       4,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -60,10 +64,20 @@ Q_CONSTINIT static const uint qt_meta_data_ZN6WidgetE[] = {
        1,       // signalCount
 
  // signals: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    1,   20,    2, 0x06,    1 /* Public */,
+       1,    1,   38,    2, 0x06,    1 /* Public */,
+
+ // slots: name, argc, parameters, tag, flags, initial metatype offsets
+       4,    0,   41,    2, 0x08,    3 /* Private */,
+       5,    0,   42,    2, 0x08,    4 /* Private */,
+       6,    1,   43,    2, 0x08,    5 /* Private */,
 
  // signals: parameters
     QMetaType::Void, QMetaType::QString,    3,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void, QMetaType::QString,    7,
 
        0        // eod
 };
@@ -79,6 +93,13 @@ Q_CONSTINIT const QMetaObject Widget::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<Widget, std::true_type>,
         // method 'logToUI'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<const QString &, std::false_type>,
+        // method 'onNewWebSocketConnection'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'onWebSocketDisconnected'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'onWebSocketTextMessageReceived'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
         QtPrivate::TypeAndForceComplete<const QString &, std::false_type>
     >,
     nullptr
@@ -90,6 +111,9 @@ void Widget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void
     if (_c == QMetaObject::InvokeMetaMethod) {
         switch (_id) {
         case 0: _t->logToUI((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
+        case 1: _t->onNewWebSocketConnection(); break;
+        case 2: _t->onWebSocketDisconnected(); break;
+        case 3: _t->onWebSocketTextMessageReceived((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
         default: ;
         }
     }
@@ -124,14 +148,14 @@ int Widget::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 1)
+        if (_id < 4)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 1;
+        _id -= 4;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 1)
+        if (_id < 4)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 1;
+        _id -= 4;
     }
     return _id;
 }

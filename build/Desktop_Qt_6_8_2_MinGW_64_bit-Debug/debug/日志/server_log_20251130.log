@@ -1,0 +1,358 @@
+[2025-11-30 16:12:07.164] [INFO] WidgetServer: ===== 服务器启动初始化 =====
+[2025-11-30 16:12:07.171] [INFO] WidgetServer: MySQL驱动检查通过
+[2025-11-30 16:12:09.371] [INFO] WidgetServer: 数据库连接池初始化成功，连接名：global_conn
+[2025-11-30 16:12:09.371] [INFO] WidgetServer: 日志工作线程启动成功
+[2025-11-30 16:12:09.372] [INFO] WidgetServer: 日志工作线程启动，开始处理日志队列
+[2025-11-30 16:12:09.381] [INFO] WidgetServer: HTTP服务器启动成功，监听地址：0.0.0.0:8080
+[2025-11-30 16:12:09.381] [INFO] WidgetServer: WebSocket服务器启动成功，监听地址：0.0.0.0:8081
+[2025-11-30 16:12:09.383] [INFO] WidgetServer: 注册接口：POST /api/register
+[2025-11-30 16:12:09.383] [INFO] WidgetServer: 登录接口：POST /api/login
+[2025-11-30 16:12:09.383] [INFO] WidgetServer: 登出接口：POST /api/logout
+[2025-11-30 16:12:09.383] [INFO] WidgetServer: 好友功能接口：GET /api/get_friend_list
+[2025-11-30 16:12:09.383] [INFO] WidgetServer: 发送消息接口：POST /api/send_message
+[2025-11-30 16:12:09.384] [INFO] WidgetServer: 获取消息接口：GET /api/get_messages
+[2025-11-30 16:12:09.384] [INFO] WidgetServer: 头像上传接口：POST /api/upload_avatar
+[2025-11-30 16:12:09.384] [INFO] WidgetServer: 头像获取接口：GET /api/get_avatar
+[2025-11-30 16:30:02.020] [INFO] WidgetServer: 新HTTP客户端连接：::ffff:10.107.199.222:54453
+[2025-11-30 16:30:02.041] [INFO] WidgetServer: 新HTTP客户端连接：::ffff:10.107.199.222:54454
+[2025-11-30 16:30:02.072] [INFO] WidgetServer: 收到原始请求数据（前100字符）：POST /api/check_phone HTTP/1.1
+host: 10.107.199.222:8080
+content-type: application/json
+content-l...
+[2025-11-30 16:30:02.072] [INFO] WidgetServer: 收到请求: POST /api/check_phone
+[2025-11-30 16:30:02.073] [INFO] WidgetServer: 开始处理手机号存在性检查请求
+[2025-11-30 16:30:02.073] [INFO] WidgetServer: 手机号检查请求：待验证手机号=18189294306
+[2025-11-30 16:30:02.184] [INFO] WidgetServer: 手机号检查结果：已存在（18189294306），用户ID：0001
+[2025-11-30 16:30:02.184] [INFO] WidgetServer: HTTP客户端断开连接：::ffff:10.107.199.222:54454
+[2025-11-30 16:30:02.184] [INFO] WidgetServer: 响应已发送，状态码=200
+[2025-11-30 16:30:02.185] [INFO] WidgetServer: 收到原始请求数据（前100字符）：POST /api/check_phone HTTP/1.1
+host: 10.107.199.222:8080
+content-type: application/json
+content-l...
+[2025-11-30 16:30:02.185] [INFO] WidgetServer: 收到请求: POST /api/check_phone
+[2025-11-30 16:30:02.185] [INFO] WidgetServer: 开始处理手机号存在性检查请求
+[2025-11-30 16:30:02.185] [INFO] WidgetServer: 手机号检查请求：待验证手机号=18189294306
+[2025-11-30 16:30:02.187] [INFO] WidgetServer: 手机号检查结果：已存在（18189294306），用户ID：0001
+[2025-11-30 16:30:02.187] [INFO] WidgetServer: HTTP客户端断开连接：::ffff:10.107.199.222:54453
+[2025-11-30 16:30:02.187] [INFO] WidgetServer: 响应已发送，状态码=200
+[2025-11-30 16:30:02.187] [INFO] WidgetServer: 新HTTP客户端连接：::ffff:10.107.199.222:54455
+[2025-11-30 16:30:02.198] [INFO] WidgetServer: 新HTTP客户端连接：::ffff:10.107.199.222:54456
+[2025-11-30 16:30:02.208] [INFO] WidgetServer: 收到原始请求数据（前100字符）：GET /api/get_avatar?user_id=0001 HTTP/1.1
+host: 10.107.199.222:8080
+connection: Keep-Alive
+accept...
+[2025-11-30 16:30:02.208] [INFO] WidgetServer: 收到请求: GET /api/get_avatar?user_id=0001
+[2025-11-30 16:30:02.208] [INFO] WidgetServer: 开始处理头像获取请求
+[2025-11-30 16:30:02.213] [INFO] WidgetServer: HTTP客户端断开连接：::ffff:10.107.199.222:54455
+[2025-11-30 16:30:02.214] [INFO] WidgetServer: 收到原始请求数据（前100字符）：GET /api/get_avatar?user_id=0001 HTTP/1.1
+host: 10.107.199.222:8080
+connection: Keep-Alive
+accept...
+[2025-11-30 16:30:02.214] [INFO] WidgetServer: 收到请求: GET /api/get_avatar?user_id=0001
+[2025-11-30 16:30:02.215] [INFO] WidgetServer: 开始处理头像获取请求
+[2025-11-30 16:30:02.216] [INFO] WidgetServer: HTTP客户端断开连接：::ffff:10.107.199.222:54456
+[2025-11-30 16:30:09.630] [INFO] WidgetServer: 新HTTP客户端连接：::ffff:10.107.199.222:54465
+[2025-11-30 16:30:09.653] [INFO] WidgetServer: 收到原始请求数据（前100字符）：POST /api/login HTTP/1.1
+host: 10.107.199.222:8080
+content-type: application/json
+content-length:...
+[2025-11-30 16:30:09.653] [INFO] WidgetServer: 收到请求: POST /api/login
+[2025-11-30 16:30:09.654] [INFO] WidgetServer: 开始处理登录请求
+[2025-11-30 16:30:09.655] [INFO] WidgetServer: 登录请求：手机号=18189294306
+[2025-11-30 16:30:09.655] [INFO] WidgetServer: 开始登录验证：手机号=18189294306
+[2025-11-30 16:30:09.670] [INFO] WidgetServer: 登录成功：手机号=18189294306，用户名=树的花语，ID：0001
+[2025-11-30 16:30:09.671] [INFO] WidgetServer: HTTP客户端断开连接：::ffff:10.107.199.222:54465
+[2025-11-30 16:30:09.671] [INFO] WidgetServer: 响应已发送，状态码=200
+[2025-11-30 16:30:09.760] [INFO] WidgetServer: 新HTTP客户端连接：::ffff:10.107.199.222:54466
+[2025-11-30 16:30:09.770] [INFO] WidgetServer: 新HTTP客户端连接：::ffff:10.107.199.222:54468
+[2025-11-30 16:30:09.783] [INFO] WidgetServer: 新HTTP客户端连接：::ffff:10.107.199.222:54469
+[2025-11-30 16:30:09.804] [INFO] WidgetServer: 收到原始请求数据（前100字符）：GET /api/get_allAvatar HTTP/1.1
+host: 10.107.199.222:8080
+connection: Keep-Alive
+accept-encoding:...
+[2025-11-30 16:30:09.804] [INFO] WidgetServer: 收到请求: GET /api/get_allAvatar
+[2025-11-30 16:30:09.804] [INFO] WidgetServer: 开始处理所有用户头像获取请求
+[2025-11-30 16:30:09.805] [ERROR] WidgetServer: 查询所有用户头像失败: Unknown column 'avatar_path' in 'field list' QMYSQL: Unable to execute query
+[2025-11-30 16:30:09.805] [INFO] WidgetServer: HTTP客户端断开连接：::ffff:10.107.199.222:54466
+[2025-11-30 16:30:09.806] [INFO] WidgetServer: 收到原始请求数据（前100字符）：GET /api/get_all_users HTTP/1.1
+host: 10.107.199.222:8080
+content-type: application/json
+connecti...
+[2025-11-30 16:30:09.806] [INFO] WidgetServer: 收到请求: GET /api/get_all_users
+[2025-11-30 16:30:09.806] [INFO] WidgetServer: 收到获取所有用户信息请求
+[2025-11-30 16:30:09.808] [INFO] WidgetServer: 成功获取所有用户信息，共 4 条记录
+[2025-11-30 16:30:09.808] [INFO] WidgetServer: HTTP客户端断开连接：::ffff:10.107.199.222:54468
+[2025-11-30 16:30:09.808] [INFO] WidgetServer: 响应已发送，状态码=200
+[2025-11-30 16:30:09.808] [INFO] WidgetServer: 收到原始请求数据（前100字符）：GET /api/get_avatar?user_id=0001 HTTP/1.1
+host: 10.107.199.222:8080
+connection: Keep-Alive
+accept...
+[2025-11-30 16:30:09.808] [INFO] WidgetServer: 收到请求: GET /api/get_avatar?user_id=0001
+[2025-11-30 16:30:09.809] [INFO] WidgetServer: 开始处理头像获取请求
+[2025-11-30 16:30:09.809] [INFO] WidgetServer: HTTP客户端断开连接：::ffff:10.107.199.222:54469
+[2025-11-30 16:30:09.841] [INFO] WidgetServer: 新WebSocket客户端连接：::ffff:10.107.199.222:54467
+[2025-11-30 16:30:09.843] [INFO] WidgetServer: 收到WebSocket消息：{"type":"login","userId":"0001"}
+[2025-11-30 16:30:09.843] [INFO] WidgetServer: 用户 0001 WebSocket连接认证成功
+[2025-11-30 16:30:09.843] [INFO] WidgetServer: 收到WebSocket消息：{"type":"history","userId":"0001"}
+[2025-11-30 16:30:39.757] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 16:30:41.980] [INFO] WidgetServer: 收到WebSocket消息：{"content":"1","fromUserId":"0001","tempId":"{8cb058ea-862d-434d-976c-98de539d7aa2}","time":"2025-11-30 16:30:41","toUserId":"0001","type":"message"}
+[2025-11-30 16:31:09.756] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 16:31:39.755] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 16:32:09.754] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 16:32:39.753] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 16:33:09.759] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 16:33:39.756] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 16:34:09.756] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 16:34:35.952] [INFO] WidgetServer: 新HTTP客户端连接：::ffff:10.107.199.222:49241
+[2025-11-30 16:34:35.979] [INFO] WidgetServer: 收到原始请求数据（前100字符）：POST /api/logout HTTP/1.1
+host: 10.107.199.222:8080
+content-type: application/json
+content-length...
+[2025-11-30 16:34:35.979] [INFO] WidgetServer: 收到请求: POST /api/logout
+[2025-11-30 16:34:35.980] [INFO] WidgetServer: 开始处理登出请求
+[2025-11-30 16:34:35.988] [INFO] WidgetServer: 登出成功：手机号=18189294306
+[2025-11-30 16:34:35.989] [INFO] WidgetServer: HTTP客户端断开连接：::ffff:10.107.199.222:49241
+[2025-11-30 16:34:35.989] [INFO] WidgetServer: 响应已发送，状态码=200
+[2025-11-30 16:34:36.310] [INFO] WidgetServer: WebSocket客户端断开连接：::ffff:10.107.199.222:54467，用户ID：0001
+[2025-11-30 16:34:37.932] [INFO] WidgetServer: 服务器已停止监听端口
+[2025-11-30 16:34:37.933] [INFO] WidgetServer: 数据库连接已关闭
+[2025-11-30 16:34:37.933] [INFO] WidgetServer: ===== 服务器程序已退出 =====
+[2025-11-30 16:46:07.709] [INFO] WidgetServer: ===== 服务器启动初始化 =====
+[2025-11-30 16:46:07.711] [INFO] WidgetServer: MySQL驱动检查通过
+[2025-11-30 16:46:09.887] [INFO] WidgetServer: 数据库连接池初始化成功，连接名：global_conn
+[2025-11-30 16:46:09.887] [INFO] WidgetServer: 日志工作线程启动成功
+[2025-11-30 16:46:09.888] [INFO] WidgetServer: 日志工作线程启动，开始处理日志队列
+[2025-11-30 16:46:09.894] [INFO] WidgetServer: HTTP服务器启动成功，监听地址：0.0.0.0:8080
+[2025-11-30 16:46:09.894] [INFO] WidgetServer: WebSocket服务器启动成功，监听地址：0.0.0.0:8081
+[2025-11-30 16:46:09.900] [INFO] WidgetServer: 注册接口：POST /api/register
+[2025-11-30 16:46:09.900] [INFO] WidgetServer: 登录接口：POST /api/login
+[2025-11-30 16:46:09.900] [INFO] WidgetServer: 登出接口：POST /api/logout
+[2025-11-30 16:46:09.900] [INFO] WidgetServer: 好友功能接口：GET /api/get_friend_list
+[2025-11-30 16:46:09.900] [INFO] WidgetServer: 发送消息接口：POST /api/send_message
+[2025-11-30 16:46:09.901] [INFO] WidgetServer: 获取消息接口：GET /api/get_messages
+[2025-11-30 16:46:09.901] [INFO] WidgetServer: 头像上传接口：POST /api/upload_avatar
+[2025-11-30 16:46:09.901] [INFO] WidgetServer: 头像获取接口：GET /api/get_avatar
+[2025-11-30 16:46:14.424] [INFO] WidgetServer: 新HTTP客户端连接：::ffff:10.107.199.222:49307
+[2025-11-30 16:46:14.451] [INFO] WidgetServer: 收到原始请求数据（前100字符）：POST /api/login HTTP/1.1
+host: 10.107.199.222:8080
+content-type: application/json
+content-length:...
+[2025-11-30 16:46:14.451] [INFO] WidgetServer: 收到请求: POST /api/login
+[2025-11-30 16:46:14.452] [INFO] WidgetServer: 开始处理登录请求
+[2025-11-30 16:46:14.452] [INFO] WidgetServer: 登录请求：手机号=18189294306
+[2025-11-30 16:46:14.452] [INFO] WidgetServer: 开始登录验证：手机号=18189294306
+[2025-11-30 16:46:14.489] [INFO] WidgetServer: 登录成功：手机号=18189294306，用户名=树的花语，ID：0001
+[2025-11-30 16:46:14.490] [INFO] WidgetServer: HTTP客户端断开连接：::ffff:10.107.199.222:49307
+[2025-11-30 16:46:14.490] [INFO] WidgetServer: 响应已发送，状态码=200
+[2025-11-30 16:46:14.547] [INFO] WidgetServer: 新HTTP客户端连接：::ffff:10.107.199.222:49308
+[2025-11-30 16:46:14.558] [INFO] WidgetServer: 新HTTP客户端连接：::ffff:10.107.199.222:49310
+[2025-11-30 16:46:14.570] [INFO] WidgetServer: 新HTTP客户端连接：::ffff:10.107.199.222:49311
+[2025-11-30 16:46:14.631] [INFO] WidgetServer: 新WebSocket客户端连接：::ffff:10.107.199.222:49309
+[2025-11-30 16:46:14.631] [INFO] WidgetServer: 收到原始请求数据（前100字符）：GET /api/get_allAvatar HTTP/1.1
+host: 10.107.199.222:8080
+connection: Keep-Alive
+accept-encoding:...
+[2025-11-30 16:46:14.631] [INFO] WidgetServer: 收到请求: GET /api/get_allAvatar
+[2025-11-30 16:46:14.631] [INFO] WidgetServer: 开始处理所有用户头像获取请求
+[2025-11-30 16:46:14.634] [ERROR] WidgetServer: 查询所有用户头像失败: Unknown column 'avatar_path' in 'field list' QMYSQL: Unable to execute query
+[2025-11-30 16:46:14.634] [INFO] WidgetServer: HTTP客户端断开连接：::ffff:10.107.199.222:49308
+[2025-11-30 16:46:14.634] [INFO] WidgetServer: 收到原始请求数据（前100字符）：GET /api/get_all_users HTTP/1.1
+host: 10.107.199.222:8080
+content-type: application/json
+connecti...
+[2025-11-30 16:46:14.634] [INFO] WidgetServer: 收到请求: GET /api/get_all_users
+[2025-11-30 16:46:14.635] [INFO] WidgetServer: 收到获取所有用户信息请求
+[2025-11-30 16:46:14.636] [INFO] WidgetServer: 成功获取所有用户信息，共 4 条记录
+[2025-11-30 16:46:14.636] [INFO] WidgetServer: HTTP客户端断开连接：::ffff:10.107.199.222:49310
+[2025-11-30 16:46:14.636] [INFO] WidgetServer: 响应已发送，状态码=200
+[2025-11-30 16:46:14.637] [INFO] WidgetServer: 收到原始请求数据（前100字符）：GET /api/get_avatar?user_id=0001 HTTP/1.1
+host: 10.107.199.222:8080
+connection: Keep-Alive
+accept...
+[2025-11-30 16:46:14.637] [INFO] WidgetServer: 收到请求: GET /api/get_avatar?user_id=0001
+[2025-11-30 16:46:14.637] [INFO] WidgetServer: 开始处理头像获取请求
+[2025-11-30 16:46:14.638] [INFO] WidgetServer: HTTP客户端断开连接：::ffff:10.107.199.222:49311
+[2025-11-30 16:46:14.644] [INFO] WidgetServer: 收到WebSocket消息：{"type":"login","userId":"0001"}
+[2025-11-30 16:46:14.645] [INFO] WidgetServer: 用户 0001 WebSocket连接认证成功
+[2025-11-30 16:46:14.645] [INFO] WidgetServer: 收到WebSocket消息：{"type":"history","userId":"0001"}
+[2025-11-30 16:46:38.611] [INFO] WidgetServer: 收到WebSocket消息：{"content":"11","fromUserId":"0001","tempId":"{64ff90bf-07cd-40c6-ac06-760070e8db87}","time":"2025-11-30 16:46:38","toUserId":"0001","type":"message"}
+[2025-11-30 16:46:44.534] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 16:47:14.538] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 16:47:44.537] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 16:48:00.618] [INFO] WidgetServer: 收到WebSocket消息：{"content":"1414","fromUserId":"0001","tempId":"{71ff5ae2-4f06-4c36-a3fe-43b69a9faf91}","time":"2025-11-30 16:48:00","toUserId":"0002","type":"message"}
+[2025-11-30 16:48:01.763] [INFO] WidgetServer: 收到WebSocket消息：{"content":"4141","fromUserId":"0001","tempId":"{54c2c2b6-d77e-4a74-8bfb-7fe47cedbb26}","time":"2025-11-30 16:48:01","toUserId":"0002","type":"message"}
+[2025-11-30 16:48:02.851] [INFO] WidgetServer: 收到WebSocket消息：{"content":"41414","fromUserId":"0001","tempId":"{576f8c04-3d18-4992-8821-6f0dee486d82}","time":"2025-11-30 16:48:02","toUserId":"0002","type":"message"}
+[2025-11-30 16:48:03.737] [INFO] WidgetServer: 收到WebSocket消息：{"content":"1414","fromUserId":"0001","tempId":"{32950b75-2cb2-4ce4-9e2e-e900beabe143}","time":"2025-11-30 16:48:03","toUserId":"0002","type":"message"}
+[2025-11-30 16:48:04.668] [INFO] WidgetServer: 收到WebSocket消息：{"content":"4141","fromUserId":"0001","tempId":"{9f3686c2-19b7-47d1-91ff-850d36b5ebff}","time":"2025-11-30 16:48:04","toUserId":"0002","type":"message"}
+[2025-11-30 16:48:05.935] [INFO] WidgetServer: 收到WebSocket消息：{"content":"111","fromUserId":"0001","tempId":"{81687ece-6cf0-4e30-a7e9-67bda15f216e}","time":"2025-11-30 16:48:05","toUserId":"0002","type":"message"}
+[2025-11-30 16:48:14.538] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 16:48:44.537] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 16:49:14.536] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 16:49:44.534] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 16:50:14.541] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 16:50:44.534] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 16:51:14.537] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 16:51:44.538] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 16:52:14.535] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 16:52:44.534] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 16:53:14.535] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 16:53:44.534] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 16:54:14.534] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 16:54:44.536] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 16:55:14.538] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 16:55:44.535] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 16:56:14.535] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 16:56:44.535] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 16:57:14.535] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 16:57:44.537] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 16:58:14.537] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 16:58:44.536] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 16:59:14.535] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 16:59:44.536] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 17:00:14.534] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 17:00:44.535] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 17:01:14.534] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 17:01:44.535] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 17:02:14.537] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 17:02:44.536] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 17:03:14.534] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 17:03:44.534] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 17:04:14.536] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 17:04:44.538] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 17:05:14.536] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 17:05:44.535] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 17:06:14.536] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 17:06:44.538] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 17:07:14.535] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 17:07:44.538] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 17:08:14.537] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 17:08:44.536] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 17:09:14.537] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 17:09:44.537] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 17:10:14.534] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 17:10:44.538] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 17:11:14.538] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 17:11:44.537] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 17:12:14.536] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 17:12:44.537] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 17:13:14.536] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 17:13:44.534] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 17:14:14.534] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 17:14:44.538] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 17:15:14.538] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 17:15:44.537] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 17:16:14.536] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 17:16:44.538] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 17:17:14.537] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 17:17:44.537] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 17:18:14.537] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 17:18:44.536] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 17:19:01.761] [INFO] WidgetServer: 新HTTP客户端连接：::ffff:10.107.199.222:55045
+[2025-11-30 17:19:01.780] [INFO] WidgetServer: 收到原始请求数据（前100字符）：POST /api/logout HTTP/1.1
+host: 10.107.199.222:8080
+content-type: application/json
+content-length...
+[2025-11-30 17:19:01.780] [INFO] WidgetServer: 收到请求: POST /api/logout
+[2025-11-30 17:19:01.781] [INFO] WidgetServer: 开始处理登出请求
+[2025-11-30 17:19:01.841] [INFO] WidgetServer: 登出成功：手机号=18189294306
+[2025-11-30 17:19:01.841] [INFO] WidgetServer: HTTP客户端断开连接：::ffff:10.107.199.222:55045
+[2025-11-30 17:19:01.842] [INFO] WidgetServer: 响应已发送，状态码=200
+[2025-11-30 17:19:05.314] [INFO] WidgetServer: WebSocket客户端断开连接：::ffff:10.107.199.222:49309，用户ID：0001
+[2025-11-30 19:35:41.027] [INFO] WidgetServer: 服务器已停止监听端口
+[2025-11-30 19:35:41.036] [INFO] WidgetServer: 数据库连接已关闭
+[2025-11-30 19:35:41.036] [INFO] WidgetServer: ===== 服务器程序已退出 =====
+[2025-11-30 20:29:14.759] [INFO] WidgetServer: ===== 服务器启动初始化 =====
+[2025-11-30 20:29:14.760] [INFO] WidgetServer: MySQL驱动检查通过
+[2025-11-30 20:29:16.864] [INFO] WidgetServer: 数据库连接池初始化成功，连接名：global_conn
+[2025-11-30 20:29:16.864] [INFO] WidgetServer: 日志工作线程启动成功
+[2025-11-30 20:29:16.865] [INFO] WidgetServer: 日志工作线程启动，开始处理日志队列
+[2025-11-30 20:29:16.870] [INFO] WidgetServer: HTTP服务器启动成功，监听地址：0.0.0.0:8080
+[2025-11-30 20:29:16.870] [INFO] WidgetServer: WebSocket服务器启动成功，监听地址：0.0.0.0:8081
+[2025-11-30 20:29:16.872] [INFO] WidgetServer: 注册接口：POST /api/register
+[2025-11-30 20:29:16.872] [INFO] WidgetServer: 登录接口：POST /api/login
+[2025-11-30 20:29:16.872] [INFO] WidgetServer: 登出接口：POST /api/logout
+[2025-11-30 20:29:16.873] [INFO] WidgetServer: 好友功能接口：GET /api/get_friend_list
+[2025-11-30 20:29:16.873] [INFO] WidgetServer: 发送消息接口：POST /api/send_message
+[2025-11-30 20:29:16.873] [INFO] WidgetServer: 获取消息接口：GET /api/get_messages
+[2025-11-30 20:29:16.873] [INFO] WidgetServer: 头像上传接口：POST /api/upload_avatar
+[2025-11-30 20:29:16.873] [INFO] WidgetServer: 头像获取接口：GET /api/get_avatar
+[2025-11-30 20:29:17.039] [INFO] WidgetServer: 新HTTP客户端连接：::ffff:10.107.199.222:54167
+[2025-11-30 20:29:17.039] [INFO] WidgetServer: 新HTTP客户端连接：::ffff:10.107.199.222:54166
+[2025-11-30 20:29:19.201] [INFO] WidgetServer: 新HTTP客户端连接：::ffff:10.107.199.222:54171
+[2025-11-30 20:29:19.230] [INFO] WidgetServer: 收到原始请求数据（前100字符）：POST /api/login HTTP/1.1
+host: 10.107.199.222:8080
+content-type: application/json
+content-length:...
+[2025-11-30 20:29:19.230] [INFO] WidgetServer: 收到请求: POST /api/login
+[2025-11-30 20:29:19.232] [INFO] WidgetServer: 开始处理登录请求
+[2025-11-30 20:29:19.232] [INFO] WidgetServer: 登录请求：手机号=18189294306
+[2025-11-30 20:29:19.232] [INFO] WidgetServer: 开始登录验证：手机号=18189294306
+[2025-11-30 20:29:19.272] [INFO] WidgetServer: 登录成功：手机号=18189294306，用户名=树的花语，ID：0001
+[2025-11-30 20:29:19.272] [INFO] WidgetServer: HTTP客户端断开连接：::ffff:10.107.199.222:54171
+[2025-11-30 20:29:19.272] [INFO] WidgetServer: 响应已发送，状态码=200
+[2025-11-30 20:29:19.339] [INFO] WidgetServer: 新HTTP客户端连接：::ffff:10.107.199.222:54172
+[2025-11-30 20:29:19.350] [INFO] WidgetServer: 新HTTP客户端连接：::ffff:10.107.199.222:54174
+[2025-11-30 20:29:19.360] [INFO] WidgetServer: 新HTTP客户端连接：::ffff:10.107.199.222:54175
+[2025-11-30 20:29:19.415] [INFO] WidgetServer: 新WebSocket客户端连接：::ffff:10.107.199.222:54173
+[2025-11-30 20:29:19.415] [INFO] WidgetServer: 收到原始请求数据（前100字符）：GET /api/get_allAvatar HTTP/1.1
+host: 10.107.199.222:8080
+connection: Keep-Alive
+accept-encoding:...
+[2025-11-30 20:29:19.415] [INFO] WidgetServer: 收到请求: GET /api/get_allAvatar
+[2025-11-30 20:29:19.416] [INFO] WidgetServer: 开始处理所有用户头像获取请求
+[2025-11-30 20:29:19.417] [ERROR] WidgetServer: 查询所有用户头像失败: Unknown column 'avatar_path' in 'field list' QMYSQL: Unable to execute query
+[2025-11-30 20:29:19.417] [INFO] WidgetServer: HTTP客户端断开连接：::ffff:10.107.199.222:54172
+[2025-11-30 20:29:19.417] [INFO] WidgetServer: 收到原始请求数据（前100字符）：GET /api/get_all_users HTTP/1.1
+host: 10.107.199.222:8080
+content-type: application/json
+connecti...
+[2025-11-30 20:29:19.417] [INFO] WidgetServer: 收到请求: GET /api/get_all_users
+[2025-11-30 20:29:19.418] [INFO] WidgetServer: 收到获取所有用户信息请求
+[2025-11-30 20:29:19.419] [INFO] WidgetServer: 成功获取所有用户信息，共 4 条记录
+[2025-11-30 20:29:19.419] [INFO] WidgetServer: HTTP客户端断开连接：::ffff:10.107.199.222:54174
+[2025-11-30 20:29:19.419] [INFO] WidgetServer: 响应已发送，状态码=200
+[2025-11-30 20:29:19.420] [INFO] WidgetServer: 收到原始请求数据（前100字符）：GET /api/get_avatar?user_id=0001 HTTP/1.1
+host: 10.107.199.222:8080
+connection: Keep-Alive
+accept...
+[2025-11-30 20:29:19.420] [INFO] WidgetServer: 收到请求: GET /api/get_avatar?user_id=0001
+[2025-11-30 20:29:19.420] [INFO] WidgetServer: 开始处理头像获取请求
+[2025-11-30 20:29:19.421] [INFO] WidgetServer: HTTP客户端断开连接：::ffff:10.107.199.222:54175
+[2025-11-30 20:29:19.427] [INFO] WidgetServer: 收到WebSocket消息：{"type":"login","userId":"0001"}
+[2025-11-30 20:29:19.427] [INFO] WidgetServer: 用户 0001 WebSocket连接认证成功
+[2025-11-30 20:29:19.428] [INFO] WidgetServer: 收到WebSocket消息：{"type":"history","userId":"0001"}
+[2025-11-30 20:29:34.322] [INFO] WidgetServer: 收到WebSocket消息：{"content":"1123","fromUserId":"0001","tempId":"{4872687a-7e01-4920-9f15-1d5934ea0f78}","time":"2025-11-30 20:29:34","toUserId":"0001","type":"message"}
+[2025-11-30 20:29:49.334] [INFO] WidgetServer: 收到WebSocket消息：{"type":"ping"}
+[2025-11-30 20:30:07.157] [INFO] WidgetServer: 服务器已停止监听端口
+[2025-11-30 20:30:07.158] [INFO] WidgetServer: 数据库连接已关闭
+[2025-11-30 20:30:07.158] [INFO] WidgetServer: ===== 服务器程序已退出 =====
+[2025-11-30 20:30:07.158] [INFO] WidgetServer: HTTP客户端断开连接：::ffff:10.107.199.222:54167
+[2025-11-30 20:30:07.158] [INFO] WidgetServer: HTTP客户端断开连接：::ffff:10.107.199.222:54166
+[2025-11-30 20:30:16.319] [INFO] WidgetServer: ===== 服务器启动初始化 =====
+[2025-11-30 20:30:16.319] [INFO] WidgetServer: MySQL驱动检查通过
+[2025-11-30 20:30:18.345] [INFO] WidgetServer: 数据库连接池初始化成功，连接名：global_conn
+[2025-11-30 20:30:18.345] [INFO] WidgetServer: 日志工作线程启动成功
+[2025-11-30 20:30:18.347] [INFO] WidgetServer: 日志工作线程启动，开始处理日志队列
+[2025-11-30 20:30:18.351] [INFO] WidgetServer: HTTP服务器启动成功，监听地址：0.0.0.0:8080
+[2025-11-30 20:30:18.351] [INFO] WidgetServer: WebSocket服务器启动成功，监听地址：0.0.0.0:8081
+[2025-11-30 20:30:18.352] [INFO] WidgetServer: 注册接口：POST /api/register
+[2025-11-30 20:30:18.352] [INFO] WidgetServer: 登录接口：POST /api/login
+[2025-11-30 20:30:18.353] [INFO] WidgetServer: 登出接口：POST /api/logout
+[2025-11-30 20:30:18.353] [INFO] WidgetServer: 好友功能接口：GET /api/get_friend_list
+[2025-11-30 20:30:18.353] [INFO] WidgetServer: 发送消息接口：POST /api/send_message
+[2025-11-30 20:30:18.353] [INFO] WidgetServer: 获取消息接口：GET /api/get_messages
+[2025-11-30 20:30:18.355] [INFO] WidgetServer: 头像上传接口：POST /api/upload_avatar
+[2025-11-30 20:30:18.355] [INFO] WidgetServer: 头像获取接口：GET /api/get_avatar
+[2025-11-30 20:30:19.750] [INFO] WidgetServer: 新HTTP客户端连接：::ffff:10.107.199.222:54209
+[2025-11-30 20:30:19.772] [INFO] WidgetServer: 收到原始请求数据（前100字符）：POST /api/logout HTTP/1.1
+host: 10.107.199.222:8080
+content-type: application/json
+content-length...
+[2025-11-30 20:30:19.772] [INFO] WidgetServer: 收到请求: POST /api/logout
+[2025-11-30 20:30:19.773] [INFO] WidgetServer: 开始处理登出请求
+[2025-11-30 20:30:19.788] [INFO] WidgetServer: 登出成功：手机号=18189294306
+[2025-11-30 20:30:19.788] [INFO] WidgetServer: HTTP客户端断开连接：::ffff:10.107.199.222:54209
+[2025-11-30 20:30:19.788] [INFO] WidgetServer: 响应已发送，状态码=200
+[2025-11-30 20:30:20.560] [INFO] WidgetServer: 服务器已停止监听端口
+[2025-11-30 20:30:20.561] [INFO] WidgetServer: 数据库连接已关闭
+[2025-11-30 20:30:20.561] [INFO] WidgetServer: ===== 服务器程序已退出 =====
