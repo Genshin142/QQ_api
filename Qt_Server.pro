@@ -1,4 +1,4 @@
-QT       += core gui sql core5compat network
+QT       += core gui sql core5compat network websockets
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -13,10 +13,12 @@ TARGET = server
 
 SOURCES += \
     main.cpp \
-    server.cpp
+    server.cpp \
+    connectionpool.cpp
 
 HEADERS += \
-    server.h
+    server.h \
+    connectionpool.h
 
 FORMS += \
     server.ui
